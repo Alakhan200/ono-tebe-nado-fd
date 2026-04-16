@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
 
-<body>
+  <body>
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item">
-            <a class="header__link_active">главная</a>
+            <a href="#" class="header__link_active">главная</a>
           </li>
           <li class="header__links-list-item header__links-list-item_no-bullit">
             <a href="#lots" class="header__link">посмотреть лоты</a>
@@ -33,8 +33,8 @@
         />
       </a>
       <address class="address header__address">
-        <p><a class="header__link">+9 999 555 5555</a></p>
-        <p><a class="header__link">info@sobaka.ge</a></p>
+        <p><a href="#" class="header__link">+9 999 555 5555</a></p>
+        <p><a href="#" class="header__link">info@sobaka.ge</a></p>
         <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
     </header>
@@ -51,7 +51,7 @@
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="head-button">Сделать ставку</button>
         </div>
       </section>
 
@@ -59,7 +59,7 @@
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a class="card-link" href="">
+            <a class="card-link" href="#">
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <div class="card">
@@ -76,7 +76,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a class="card-link" href="">
+            <a class="card-link" href="#">
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <div class="card">
@@ -97,7 +97,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a class="card-link" href="">
+            <a class="card-link" href="#">
               <article class="card card card_type_picture">
                 <div class="overlay"></div>
                 <div class="card">
@@ -120,7 +120,7 @@
       <section id="about" class="about">
         <div class="about__column-left">
           <div class="about__logo">
-            <img class="about__logo-image" src="/images/logo-white.svg" />
+            <img class="about__logo-image" src="/images/logo-white.svg" alt="оно тебе надо"/>
           </div>
         </div>
         <div class="about__column-right">
@@ -157,7 +157,9 @@
         <nav class="footer__menu">
           <ul class="footer__menu-list">
             <li class="footer__menu-list-item">
-              <a class="footer__menu-link footer__menu-link_active">главная</a>
+              <a class="footer__menu-link footer__menu-link_active" href="#"
+                >главная</a
+              >
             </li>
             <li class="footer__menu-list-item">
               <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
@@ -190,7 +192,6 @@
           </ul>
         </div>
       </div>
-      
     </footer>
-</body>
+  </body>
 </html>
