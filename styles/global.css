@@ -6,7 +6,6 @@
 
 body {
   margin: 0 auto;
-  overflow-x: hidden;
   font-family: "Raleway", sans-serif;
 }
 
@@ -34,7 +33,7 @@ blockquote {
 
 a {
   color: inherit;
-  text-decoration: underline none;
+  text-decoration: none;
 }
 
 img {
